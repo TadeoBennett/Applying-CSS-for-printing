@@ -1,0 +1,169 @@
+*{
+   box-sizing: border-box;
+   font-family: timesy;
+}
+
+
+html {
+   height: 100%;
+}
+
+body {
+   height: 100%;
+}
+
+img {
+   width: 230px;
+   border-radius:50%;
+   display: none;
+}
+
+.name-and-prof > h3{
+   display: none;
+}
+
+ul li{
+   list-style-type:disc;
+}
+
+.column-1 header, .name-and-prof{
+   text-align: center;
+}
+
+.profile-pic{
+   display: flex;
+   justify-content: center;
+}
+
+.column-2 header{
+   border-bottom: 2px solid black;
+   padding-bottom: 5px;
+   text-transform: uppercase;
+   font-weight: bold;
+   letter-spacing: 1px;
+   margin-bottom: 10px;
+}
+
+.column-1{
+   color: black;
+}
+
+div.column-2{
+   /* background-color: red */
+   padding-left: 40px;
+   padding-right: 40px;
+}
+
+.column-1 header{
+   color: black;
+   background-color: white;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   text-transform: uppercase;
+   box-shadow: 30px 0px 0 #fff;
+   border-radius: 450px;
+   font-weight: bold;
+   margin-bottom: 20px;
+   font-size: 1.3em;
+   letter-spacing: 2px;
+}
+
+div.column-2{
+   padding-top: 0px;
+}
+
+div.column-1{
+   padding-top: 20px;
+}
+/* 
+section.contact{
+   margin-top: 50px;
+} */
+
+/* section.contact ul li{
+   line-height: 30px;
+} */
+
+/* section.contact{
+   margin-bottom: 30px;
+} */
+
+/* ----------------------------------- */
+.fa-solid{
+   display: none;
+}
+
+.references > .section-content{
+   display: none;
+   
+}
+
+.column-1 ul li{
+   list-style-type: none;
+}
+
+.contact > header, .references > header{
+   display: none;
+}
+
+.contact > .section-content > ul {
+   display: flex;
+   flex-direction: row;
+   text-align: left;
+   justify-content: center;
+   margin-top: 20px;
+}
+.contact > .section-content > ul > div{
+   padding-right: 50px;
+}
+
+
+.column-1 h3{
+   font-size: 1.3em;
+}
+
+.column-2 section{
+   margin-bottom: 30px;
+}
+
+.column-2 h3{
+   font-size: 1.2em;
+}
+
+section.references{
+   padding-bottom: 50px;
+}
+
+.column-2 p{
+   line-height: 30px;
+}
+
+
+.webdev-and-db{
+   page-break-inside: avoid;
+}
+
+.container{
+   display: inline;
+}
+
+
+.name-and-prof h1{
+   text-transform: uppercase;
+   font-size: 25px;
+}
+
+.references2{
+   display: block;
+}
+.references2 ul{
+   padding-left: 0px;
+}
+.references2 ul li{
+   list-style-type: none;
+}
+
+
+#myBtn{
+   display: none;
+}
